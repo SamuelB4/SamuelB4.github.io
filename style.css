@@ -1,0 +1,17 @@
+p {
+    color: skyblue;
+}
+
+h1 {
+    font-style: bold;
+    color: blue;
+}
+
+h4 {
+    font-size: 20;
+    color: gray;
+}
+
+body {
+    background-color: purple;
+}
