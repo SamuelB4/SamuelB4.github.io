@@ -13,5 +13,7 @@ h4 {
 }
 
 body {
-    background-color: purple;
+    text-align: center;
+    background: linear-gradient(to bottom right, purple, pink)
+    
 }
