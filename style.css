@@ -16,7 +16,7 @@ html {
     text-align: center;
     background: linear-gradient(to bottom right, purple, pink) no-repeat;
     height: 100%;
-    backround-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -25,4 +25,10 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#dadJokes {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
 }
