@@ -29,4 +29,5 @@ body {
 
 .img {
     size: 50px;
+    border-radius: 5px;
 }
