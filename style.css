@@ -1,4 +1,4 @@
-p {
+#nameAge {
     color: skyblue;
 }
 
@@ -27,7 +27,7 @@ body {
     background-attachment: fixed;
 }
 
-#dadJokes {
+.dadJokes {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
