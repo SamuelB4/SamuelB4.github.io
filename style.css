@@ -17,4 +17,12 @@ html {
     background: linear-gradient(to bottom right, purple, pink) no-repeat;
     height: 100%;
     backround-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
