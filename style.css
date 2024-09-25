@@ -38,10 +38,25 @@ html {
 
 #thiPlace {
     font-size: 20px;
-    color: #7c7c7c;
+    color: #815b28;
 }
 
 .honourable {
     font-size: 15px;
     color: paleturquoise;
+}
+
+h3 {
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    border-radius: 5px;
+    color: forestgreen;
+    display: inline-block;
+    border: 10px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: wavy;
 }
