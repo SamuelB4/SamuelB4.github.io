@@ -20,13 +20,6 @@ html {
     background-repeat: no-repeat;
 }
 
-body {
-    height: 150%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .dadJokes {
     font-size: 16px;
     font-weight: 500;
