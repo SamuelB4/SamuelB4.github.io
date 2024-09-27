@@ -68,11 +68,12 @@ button {
 }
 
 #skibidi {
-    border-radius: 10px;
+    border-radius: 50px;
     max-width: 500px;
     max-height: 500px;
-    border: 5px;
+    border: 25px;
     border-color: red;
+    align-items: end;
 }
 
 .imagineOne {
