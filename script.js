@@ -3,7 +3,7 @@ function correctQ1() {
 }
 
 function incorrectQ1() {
-    document.getElementById("quesOne").innerHTML="Incorrect!"
+    document.getElementById("quesOne").innerHTML="Incorrect!";
 }
 
 function correctQ2() {
@@ -11,7 +11,7 @@ function correctQ2() {
 }
 
 function incorrectQ2() {
-    document.getElementById("quesTwo").innerHTML="Incorrect!"
+    document.getElementById("quesTwo").innerHTML="Incorrect!";
 }
 
 function correctQ3() {
@@ -19,5 +19,5 @@ function correctQ3() {
 }
 
 function incorrectQ3() {
-    document.getElementById("quesThree").innerHTML="Incorrect!"
+    document.getElementById("quesThree").innerHTML="Incorrect!";
 }
