@@ -15,7 +15,7 @@ function incorrectQ2() {
 }
 
 function correctQ3() {
-    document.getElementById("questThree").innerHTML="Correct!";
+    document.getElementById("quesThree").innerHTML="Correct!";
 }
 
 function incorrectQ3() {
