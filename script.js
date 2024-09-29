@@ -21,3 +21,27 @@ function correctQ3() {
 function incorrectQ3() {
     document.getElementById("quesThree").innerHTML="Incorrect!";
 }
+
+function correctQ4() {
+    document.getElementById("quesFour").innerHTML="Correct!";
+}
+
+function incorrectQ4() {
+    document.getElementById("quesFour").innerHTML="Incorrect!";
+}
+
+function correctQ5() {
+    document.getElementById("quesFive").innerHTML="Correct!";
+}
+
+function incorrectQ5() {
+    document.getElementById("quesFive").innerHTML="Incorrect!";
+}
+
+function correctQ6() {
+    document.getElementById("quesSix").innerHTML="Correct!";
+}
+
+function incorrectQ6() {
+    document.getElementById("quesSix").innerHTML="Incorrect!";
+}
