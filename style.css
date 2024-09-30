@@ -3,12 +3,12 @@
     font-size: 18px;
 }
 
-.aboutMe {
+#aboutMe {
     font-style: bold;
     color: rgb(202, 122, 182);
 }
 
-.reading {
+#reading {
     font-size: 20;
     color: rgb(151, 161, 107);
 }
