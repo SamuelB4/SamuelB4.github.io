@@ -45,3 +45,13 @@ function correctQ6() {
 function incorrectQ6() {
     document.getElementById("quesSix").innerHTML="Incorrect!";
 }
+
+const answerSeven1 = document.getElementById("quesSeven1").value
+const answerSeven2 = document.getElementById("quesSeven2").value
+if (answerSeven1 === 7.32) {
+    if (answerSeven2 === 0.68) {
+        document.getElementById("questSeven").innerHTML="Correct!";
+    }
+} else {
+    document.getElementById("questSeven").innerHTML="Inorrect!";
+}
