@@ -53,5 +53,5 @@ if (answerSeven1 === 7.32) {
         document.getElementById("questSeven").innerHTML="Correct!";
     }
 } else {
-    document.getElementById("questSeven").innerHTML="Inorrect!";
+    document.getElementById("questSeven").innerHTML="Incorrect!";
 }
