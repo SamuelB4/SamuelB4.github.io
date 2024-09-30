@@ -45,6 +45,7 @@ function correctQ6() {
 function incorrectQ6() {
     document.getElementById("quesSix").innerHTML="Incorrect!";
 }
+
 function quesSeven() {
     const answerSeven = document.getElementById("quesSeven").value
     if (answerSeven === "-0.18 or -2.82") {
@@ -53,5 +54,14 @@ function quesSeven() {
         document.getElementById("questSeven").innerHTML="Correct!";
     } else {
         document.getElementById("questSeven").innerHTML="Incorrect!";
+    }
+}
+
+function quesEight() {
+    const answerEight = document.getElementById("quesEight").value
+    if (answerEight === "noble gases") {
+        document.getElementById("questEight").innerHTML="Correct!";
+    } else {
+        document.getElementById("questEight").innerHTML="Incorrect!";
     }
 }
