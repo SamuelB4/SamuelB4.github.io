@@ -45,13 +45,13 @@ function correctQ6() {
 function incorrectQ6() {
     document.getElementById("quesSix").innerHTML="Incorrect!";
 }
-
-const answerSeven1 = document.getElementById("quesSeven1").value
-const answerSeven2 = document.getElementById("quesSeven2").value
-if (answerSeven1 === 7.32) {
-    if (answerSeven2 === 0.68) {
+function quesSeven() {
+    const answerSeven = document.getElementById("quesSeven").value
+    if (answerSeven === "-0.18 or -2.82") {
         document.getElementById("questSeven").innerHTML="Correct!";
+    } else if (answerSeven === "-2.82 or -0.18"){
+        document.getElementById("questSeven").innerHTML="Correct!";
+    } else {
+        document.getElementById("questSeven").innerHTML="Incorrect!";
     }
-} else {
-    document.getElementById("questSeven").innerHTML="Incorrect!";
 }
