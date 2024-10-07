@@ -91,7 +91,7 @@ function anInspectorCalls() {
     document.getElementById("hide3").style.visibility = "hidden";
     document.getElementById("hide3").style.display="none"
     document.getElementById("hide4").style.visibility = "visible";
-    document.getElementById("hide5").style.display="inline"
+    document.getElementById("hide4").style.display="inline"
 }
 
 function showLess2() {
