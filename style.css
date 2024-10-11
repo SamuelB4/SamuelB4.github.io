@@ -126,5 +126,6 @@ img {
 #listThings {
     border-radius: 20px;
     box-shadow: inset;
+    background-color: aliceblue;
     -webkit-backdrop-filter: blur(8px);
 }
