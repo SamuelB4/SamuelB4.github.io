@@ -122,3 +122,9 @@ img {
 .christmasCarol {
     font-size: 12;
 }
+
+#listThings {
+    border-radius: 20px;
+    box-shadow: inset;
+    filter: blur(8px);
+}
