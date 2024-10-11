@@ -126,5 +126,8 @@ img {
 #listThings {
     border-radius: 20px;
     box-shadow: 8px;
-    background-color: aliceblue;
+    background-color: rgb(57, 113, 161);
+    padding: 10px;
+    filter: opacity(0.5);
+    box-shadow: 5px;
 }
