@@ -121,3 +121,9 @@ function showLess3() {
     document.getElementById("hide6").style.visibility = "hidden";
     document.getElementById("hide6").style.display="none"
 }
+
+function close_window() {
+    if (confirm("Close Window?")) {
+      close();
+    }
+  }
