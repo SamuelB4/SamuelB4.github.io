@@ -122,6 +122,10 @@ function showLess3() {
     document.getElementById("hide6").style.display="none"
 }
 
+function open_window() {
+    window.open("https://github.com/SamuelB4/SamuelB4.github.io");
+  }
+
 function close_window() {
     window.close();
-  }
+}
