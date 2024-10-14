@@ -123,5 +123,5 @@ function showLess3() {
 }
 
 function close_window() {
-    close();
+    window.close();
   }
