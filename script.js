@@ -127,5 +127,5 @@ function open_window() {
   }
 
 function close_window() {
-    window.close();
+    window.close("https://github.com/SamuelB4/SamuelB4.github.io");
 }
