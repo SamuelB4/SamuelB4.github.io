@@ -50,7 +50,7 @@ function quesSeven() {
     const answerSeven = document.getElementById("quesSeven").value
     if (answerSeven === "-0.18 or -2.82") {
         document.getElementById("questSeven").innerHTML="Correct!";
-    } else if (answerSeven === "-2.82 or -0.18"){
+    } else if (answerSeven === "-2.82 or -0.18") {
         document.getElementById("questSeven").innerHTML="Correct!";
     } else {
         document.getElementById("questSeven").innerHTML="Incorrect!";
@@ -126,16 +126,16 @@ function open_window() {
     window.open("https://github.com/SamuelB4/SamuelB4.github.io", "_blank", "width=400, height=300, top=230, left=540");
   }
 
-const one = document.getElementById("quesOne").value
-const two = document.getElementById("quesTwo").value
-const three = document.getElementById("quesThree").value
-const four = document.getElementById("quesFour").value
-const five = document.getElementById("quesFive").value
-const six = document.getElementById("quesSix").value
-const seven = document.getElementById("questSeven").value
-const eight = document.getElementById("questEight").value
+const one = document.getElementById("quesOne").textContent
+const two = document.getElementById("quesTwo").textContent
+const three = document.getElementById("quesThree").textContent
+const four = document.getElementById("quesFour").textContent
+const five = document.getElementById("quesFive").textContent
+const six = document.getElementById("quesSix").textContent
+const seven = document.getElementById("questSeven").textContent
+const eight = document.getElementById("questEight").textContent
 
 if (one == "Correct!" && two == "Incorrect!" && three == "Correct!" && four == "Correct!" && five == "Incorrect!" && six == "Incorrect!" && seven == "Incorrect!" && eight == "Correct!") {
     document.getElementById("secretPage").style.visibility = "visible";
-    document.getElementById("secretPage").style.display="inline"
+    document.getElementById("secretPage").style.display="inline";
 }
