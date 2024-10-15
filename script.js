@@ -126,14 +126,14 @@ function open_window() {
     window.open("https://github.com/SamuelB4/SamuelB4.github.io", "_blank", "width=400, height=300, top=230, left=540");
   }
 
-const one = document.getElementById("quesOne").textContent
-const two = document.getElementById("quesTwo").textContent
-const three = document.getElementById("quesThree").textContent
-const four = document.getElementById("quesFour").textContent
-const five = document.getElementById("quesFive").textContent
-const six = document.getElementById("quesSix").textContent
-const seven = document.getElementById("questSeven").textContent
-const eight = document.getElementById("questEight").textContent
+const one = document.getElementById("quesOne").textContent;
+const two = document.getElementById("quesTwo").textContent;
+const three = document.getElementById("quesThree").textContent;
+const four = document.getElementById("quesFour").textContent;
+const five = document.getElementById("quesFive").textContent;
+const six = document.getElementById("quesSix").textContent;
+const seven = document.getElementById("questSeven").textContent;
+const eight = document.getElementById("questEight").textContent;
 
 if (one == "Correct!" && two == "Incorrect!" && three == "Correct!" && four == "Correct!" && five == "Incorrect!" && six == "Incorrect!" && seven == "Incorrect!" && eight == "Correct!") {
     document.getElementById("secretPage").style.visibility = "visible";
