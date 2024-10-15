@@ -125,3 +125,17 @@ function showLess3() {
 function open_window() {
     window.open("https://github.com/SamuelB4/SamuelB4.github.io", "_blank", "width=400, height=300, top=230, left=540");
   }
+
+const one = document.getElementById("quesOne").value
+const two = document.getElementById("quesTwo").value
+const three = document.getElementById("quesThree").value
+const four = document.getElementById("quesFour").value
+const five = document.getElementById("quesFive").value
+const six = document.getElementById("quesSix").value
+const seven = document.getElementById("questSeven").value
+const eight = document.getElementById("questEight").value
+
+if (one == "Correct!" && two == "Incorrect!" && three == "Correct!" && four == "Correct!" && five == "Incorrect!" && six == "Incorrect!" && seven == "Incorrect!" && eight == "Correct!") {
+    document.getElementById("secretPage").style.visibility = "visible";
+    document.getElementById("secretPage").style.display="inline"
+}
