@@ -1,7 +1,8 @@
 html {
+    text-align: center;
+    background: linear-gradient(to bottom right, rgb(91, 138, 105), rgb(42, 60, 83)) no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    background: linear-gradient(to top right, #83256e, #312fad) no-repeat;
 }
 
 #nameAge {
@@ -117,9 +118,10 @@ img {
     box-shadow: 5px;
 }
 
-#bottompage {
-    text-align: center;
-    background: linear-gradient(to bottom right, rgb(91, 138, 105), rgb(42, 60, 83)) no-repeat;
+#toppage {
     background-size: cover;
     background-repeat: no-repeat;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,0.4962359943977591) 61%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
 }
