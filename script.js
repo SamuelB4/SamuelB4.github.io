@@ -66,10 +66,6 @@ function quesEight() {
     }
 }
 
-function open_window() {
-    window.open("https://github.com/SamuelB4/SamuelB4.github.io", "_blank", "width=400, height=300, top=230, left=540");
-  }
-
 const one = document.getElementById("quesOne").textContent;
 const two = document.getElementById("quesTwo").textContent;
 const three = document.getElementById("quesThree").textContent;
